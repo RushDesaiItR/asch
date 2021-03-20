@@ -1,0 +1,218 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.navbar{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: #1f2235;
+  top: 0px;
+}
+.container{
+  width: 1200px;
+  margin: 0px auto;
+}
+.container__inner{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+.navbar__right{
+  display: flex;
+  list-style-type: none;
+}
+.navbar__right li a{
+  color: #fff;
+  font-weight: 500;
+  padding: 0px 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.row{
+  display: flex;
+  width: 100%;
+  
+}
+.col-6{
+  width: 50%;
+}
+.header__content{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-top: 160px;
+  color: #fff;
+}
+.header_ul{
+  list-style-type: none;
+  display: flex;
+  margin-left:-50px ;
+}
+.header_ul li{
+  list-style-type: none;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border:1px solid #ff4157;
+  font-weight: bold;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.header__section h1{
+  font-size: 57px;
+  font-weight: 700;
+}
+.header__section p{
+  font-size: 21px;
+  margin-top: -20px;
+  font-weight: 300;
+}
+.btn{
+outline: none;
+border: none;
+color: #fff;
+text-decoration: none;
+padding: 13px 40px;
+
+border-radius: 50px;
+}
+.btn-outline{
+  border:2px solid #ff4157;
+}
+.btn-smart{
+  background: #ff4157;
+  margin-left: 10px;
+}
+.banner_img{
+ padding: 100px 30px;
+}
+/*--------------servies---------------------*/
+.servies{
+  background: #1f2235;
+  margin-top: 0px;
+  padding: 100px 0px;
+}
+.services__heading{
+  text-align: center;
+  color: #fff;
+}
+.border-middle{
+  width: 70px;
+  height: 3px;
+  background-color: #ff4157;
+  margin: 40px auto;
+}
+.heading{
+  color: #ff4157;
+  font-size: 16px;
+}
+.main__heading{
+  font-size: 32px;
+}
+.mainContent{
+ font-size: 16px;
+ color: #cdbeae;
+}
+.col-4{
+  width: 24%;
+  margin: auto;
+  background: #23263a;
+  padding: 40px;
+  color: #fff;
+}
+.cardIcon{
+  font-size: 40px;
+  color: #ff4157;
+  margin-bottom: 0px;
+}
+.services__box__heading{
+
+    margin-bottom: 10px;
+   font-size: 20px;
+}
+.services__box__content{
+  font-size: 14px;
+}
+.aboutme{
+  padding: 30px;
+  background-color: #23263a;
+  margin-top: 0px;
+}
+.me_img{
+  padding:0px 100px;
+}
+.me_info{
+  color: #fff;
+}
+.me_info h3{
+  font-size: 30px;
+}
+.me_info p{
+  color: #a6a7ad;
+}
+.me-other h5{
+  font-size: 16px;
+}
+.me-other h5 span{
+  color: #ff4157;
+}
+.skills{
+  background: #1f2235;
+  padding: 30px 0px;
+  height: 74vh;
+}
+.skills-left{
+  color: #fff;
+}
+.skills-left h6{
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #ff4157;
+}
+.hireme{
+  padding: 16px 35px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid #ff4157;
+  text-decoration: none;
+
+}
+.skills-cards{
+  margin-top: 50px;
+}
+.col-3{
+  width: 20%;
+  color: #fff;
+  text-align: center;
+  border:1px solid #ff4157;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background: #23263a;
+}
+.col-3 h6{
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+}
+.skillslogo{
+  color: #ff4157;
+  font-size: 70px;
+
+}
